@@ -5,7 +5,7 @@ import styles from './page.css';
 
 export const Header = () => (
     <header className={styles.header}>
-        <img className={styles.headerLogo} alt="ZuriHac 2018, 8-10 June" src={require('../static/header-logo.svg')} />
+        <img className={styles.headerLogo} alt="RL Conf 2018, 21 April" src={require('../static/header-logo.png')} />
     </header>
 );
 
@@ -13,37 +13,21 @@ export const Header = () => (
 export const About = () => (
     <div className={styles.container}>
         <a id='about' />
-        <h1>About</h1>
+        <h1>Про подію</h1>
         <p>
-            Beginning of June 2018, the <a href='https://www.meetup.com/HaskellerZ/'>Zurich Haskell Meetup Group</a> will organize ZuriHac 2018,
-            a three day <a href='https://www.haskell.org/'>Haskell</a> Hackathon hosted at
-            the <a href='https://www.hsr.ch'>HSR Hochschule für Technik Rapperswil</a>. This
-            is the seventh Haskell Hackathon organized by the Zurich Haskell Meetup Group
-            and the second one which is hosted at the HSR. A fantastic venue
-            located right at lake Zurich and providing space for over 300 participants.
+        21 квітня, <a href="http://www.rl.kiev.ua/ua/" target="_blank">Русанівський Ліцей</a> організовує Конференцію Русанівського Ліцею 2018, на якій відбудуться доповіді випускників, панельні дискусії, спілкування із викладачами та інші активності.
         </p>
 
         <p>
-            The Haskell Hackathon is a free (as in beer), international, grassroots collaborative coding festival
-            whose goal is to expand the community
-            and
-            to build and improve Haskell libraries, tools, and infrastructure.
+            Конференція є безкоштовною та відкритою для всіх охочих, та має на меті зібрати в офлайні спільноту випускників, надати майданчик для спілкування з ліцеїстами в дружній та ненапруженій формі, замінити формат додаткових занять на свято.
         </p>
 
         <p>
-            This is a great opportunity to learn more about Haskell,
-            meet fellow Haskellers in real life,
-            find new contributors for your project, improve existing libraries and
-            tools or even start new ones!
+            Це прекрасна можливість випускникам розказати про щось цікаве, що вони б самі хотіли знати, будучи учнями, завести нові знайомства, а дітям та викладачам — відчути, чим живуть колишні ліцеїсти.
         </p>
 
         <p>
-            This event is open to any experience level, from beginners to gurus.
-            In fact, one of the goals is to bring beginners in contact with
-            experts so that the former can get a quick start in the Haskell
-            community. This year, we will have a dedicated beginners' course, and
-            going to be mentors on site whom you can directly approach during the
-            whole event with any Haskell-related question you have.
+            Окрім доповідей, на конференції буде панельна дискусія, а також всі охочі зможуть зробити коротку міні-доповідь (lightning talk) на вільну тему, аби розказати про цікаву ініціативу, поділитись короткою історією тощо.
         </p>
     </div>
 );
@@ -64,7 +48,7 @@ export const Footer = () => (
 
 export const Sponsors = () => (
     <div>
-        <h2>Supported by</h2>
+        <h2>За підтримки</h2>
         <div className={styles.sponsors}>
             <a href="https://www.adjoint.io" target="_blank">
               <img className={'lazyload ' + styles.sponsor} alt="Adjoint Logo" data-src={require('../static/adjoint.png')} />

@@ -34,7 +34,7 @@ const TimeAndPlace = ({children}) => (
 export default () => (
     <div className={styles.talks}>
         <a id='speakers' />
-        <h1>Speakers</h1>
+        <h1>Спікери</h1>
 
         <div className={styles.talksSection}>
             <Speaker author="Niki Vazou" img={require('../static/niki-vazou.jpg')} twitter='nikivazou'>
@@ -47,14 +47,13 @@ export default () => (
                 Author of the amazing <a href="http://dev.stephendiehl.com/hask/">What I Wish I Knew When Learning Haskell</a>.
             </Speaker>
 
-            <Speaker author="Edward Kmett" img={require('../static/ekmett.jpg')} github='ekmett' twitter='kmett'>
+            <Speaker author="Костянтин Рибніков" img={require('../static/rybnikov.jpg')} twitter='ko_bx'>
                 {/* <TimeAndPlace>Keynote on Sunday 10:00</TimeAndPlace> */}
-                Prolific Haskell programmer, mathematician, lapsed graphics guru and demo scener, defense contractor, financial toolsmith,
-                author of the widely-known <a href="https://github.com/ekmett/lens/">lens</a> library.
+                Костя випусився з РЛ 2006 року. Haskell-програміст та VP of Engineering в компанії <a href="http://www.thoughtleadr.com" target="_blank">ThoughtLeadr</a>, організатор <a href="https://github.com/KyivHaskell/haskell-study-group" target="_blank">Kyiv Haskell Study Group</a>. Отримав ступінь бакалавра в КПІ, ФІОТ за спеціальністю Обчислювальна Техніка.
             </Speaker>
 
-            <Speaker author="And more..." img={require('../static/unknown-speaker.svg')}>
-                Further speakers will be announced
+            <Speaker author="Та інші..." img={require('../static/unknown-speaker.svg')}>
+                Згодом буде додано інших спікерів
             </Speaker>
         </div>
     </div>

@@ -9,7 +9,7 @@ body {
 
     font-size: 16px;
     line-height: 1.625em;
-    font-family: Raleway, sans-serif;
+    font-family: Ubuntu, sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -107,7 +107,7 @@ svg {
   display: block;
   opacity: .9;
   height: 160px;
-  width: 80%;
+  /*width: 80%;*/
 
   @media (min-width: 840px) {
       height: 180px;
