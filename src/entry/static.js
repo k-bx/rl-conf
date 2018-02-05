@@ -27,7 +27,7 @@ module.exports = function(locals) {
                 <link href="https://fonts.googleapis.com/css?family=Lora|Raleway:400,500" rel="stylesheet" />
                 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css' rel='stylesheet' />
 
-                <link href={'https://www.rl-conf.kiev.ua/' + cssFiles[0]} rel='stylesheet' />
+                <link href={'http://www.rl-conf.kiev.ua/' + cssFiles[0]} rel='stylesheet' />
 
                 <meta name="twitter:card"        content="summary_large_image" />
                 <meta name="twitter:site"        content="@zurihac" />
@@ -36,7 +36,7 @@ module.exports = function(locals) {
                 <meta name="twitter:image"       content={shareImageUrl} />
                 <meta name="twitter:description" ontent="The Haskell Hackathon is an international, grassroots collaborative coding festival whose goal is to expand the community and to build and improve Haskell libraries, tools, and infrastructure." />
 
-                <meta property="og:url"          content="https://rl-conf.kiev.ua"/>
+                <meta property="og:url"          content="http://rl-conf.kiev.ua"/>
                 <meta property="og:type"         content="article" />
                 <meta property="og:title"        content="ZuriHac 2018" />
                 <meta property="og:image"        content={shareImageUrl} />
