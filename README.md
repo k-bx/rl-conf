@@ -1,6 +1,6 @@
 # ZuriHac 2017 website
 
-Live on https://zurihac.info
+Live on https://www.rl-conf.kiev.ua
 
 You need nodejs and yarn to run the website locally. If you have nix installed
 you can use `nix-shell` to switch into a shell with `yarn` available.
@@ -49,5 +49,5 @@ Try to provide a short description of the person, in third-person tense.
 The master branch is automatically deployed after each push (using Google Cloud
 Container Builder, see the deploy.yaml file in the root of the repository).
 
-Manual deployment is possible if you have access to the gs://zurihac.info Google
+Manual deployment is possible if you have access to the gs://www.rl-conf.kiev.ua Google
 Storage bucket. Use the `script/deploy` shell script.
