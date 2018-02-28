@@ -21,7 +21,7 @@ module.exports = function(locals) {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>ZuriHac 2018</title>
+        <title>RL Conf 2018</title>
 
         <link rel="shortcut icon" href={require('../../static/favicon.ico')} />
         <link href="https://fonts.googleapis.com/css?family=Lora|Raleway:400,500" rel="stylesheet" />
@@ -30,7 +30,6 @@ module.exports = function(locals) {
         <link href={'http://www.rl-conf.kiev.ua/' + cssFiles[0]} rel='stylesheet' />
 
         <meta name="twitter:card"        content="summary_large_image" />
-        <!--<meta name="twitter:site"        content="@ko_bx" />-->
         <meta name="twitter:creator"     content="@ko_bx" />
         <meta name="twitter:title"       content="RL Conf 2018" />
         <meta name="twitter:image"       content={shareImageUrl} />
