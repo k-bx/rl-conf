@@ -1,4 +1,4 @@
-# ZuriHac 2017 website
+# Rusanivsky Liceum Conference 2018 website
 
 Live on https://www.rl-conf.kiev.ua
 
