@@ -37,15 +37,6 @@ export default () => (
         <h1>Спікери</h1>
 
         <div className={styles.talksSection}>
-            <Speaker author="Niki Vazou" img={require('../static/niki-vazou.jpg')} twitter='nikivazou'>
-                Niki Vazou is a post-doc scholar at PLUM of University of Maryland, focusing mostly on refinement types, static program verification, and type systems.  She is the author of <a href="https://ucsd-progsys.github.io/liquidhaskell-blog/">Liquid Haskell</a>, a type system extension to GHC that lets you add sophisticated predicates to type signatures.
-            </Speaker>
-
-            <Speaker author="Stephen Diehl" img={require('../static/stephen-diehl.jpg')} github='sdiehl' twitter='smdiehl'>
-                Stephen is a Haskell developer, entrepreneur, and financial systems architect from Boston. His open source
-                work is around numerical computing, compilers, security, and improving Haskell documentation.
-                Author of the amazing <a href="http://dev.stephendiehl.com/hask/">What I Wish I Knew When Learning Haskell</a>.
-            </Speaker>
 
             <Speaker author="Костянтин Рибніков" img={require('../static/rybnikov.jpg')} twitter='ko_bx'>
                 {/* <TimeAndPlace>Keynote on Sunday 10:00</TimeAndPlace> */}
@@ -58,3 +49,15 @@ export default () => (
         </div>
     </div>
 );
+
+/*
+            <Speaker author="Niki Vazou" img={require('../static/niki-vazou.jpg')} twitter='nikivazou'>
+                Niki Vazou is a post-doc scholar at PLUM of University of Maryland, focusing mostly on refinement types, static program verification, and type systems.  She is the author of <a href="https://ucsd-progsys.github.io/liquidhaskell-blog/">Liquid Haskell</a>, a type system extension to GHC that lets you add sophisticated predicates to type signatures.
+            </Speaker>
+
+            <Speaker author="Stephen Diehl" img={require('../static/stephen-diehl.jpg')} github='sdiehl' twitter='smdiehl'>
+                Stephen is a Haskell developer, entrepreneur, and financial systems architect from Boston. His open source
+                work is around numerical computing, compilers, security, and improving Haskell documentation.
+                Author of the amazing <a href="http://dev.stephendiehl.com/hask/">What I Wish I Knew When Learning Haskell</a>.
+            </Speaker>
+*/

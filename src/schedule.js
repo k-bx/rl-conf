@@ -45,13 +45,10 @@ const DRange = ({t0, t1, label, location}) => (
 export default () => (
     <div className={styles.container}>
         <a id='schedule' />
-        <h1>Schedule</h1>
+        <h1>Розклад</h1>
 
         <p>
-            All talks and keynotes take place in the <span className={styles.scheduleLegendAula}>aula (building 4)</span>.
-            Lunch is served
-            in the <span className={styles.scheduleLegendMensa}>mensa (building 4)</span>.
-            Pizza and BBQ will be consumed <span className={styles.scheduleLegendOutside}>outside (in front of building 1)</span>.
+            Всі доповіді відбуватимуться в приміщенні Русанівського Ліцею.
         </p>
 
         <section className={styles.schedule}>
@@ -60,28 +57,17 @@ export default () => (
                 <span>{fmtTime(dMax)}</span>
             </div>
 
-            <Day day='Friday' date='June 8'>
-                <DPoint t={9} label='Doors open' />
-                <DRange t0={10} t1={11} label='Keynote' location='aula' />
-                <DRange t0={11} t1={12} label='Project presentation' location='aula' />
-                <DRange t0={12.3} t1={14} label='Lunch' location='mensa' />
-                <DRange t0={14} t1={15} label='Keynote' location='aula' />
-                <DRange t0={18} t1={21} label='Pizza' location='outside' />
+            <Day day='Friday' date='21 квітня'>
+                <DPoint t={9} label='Відкриття дверей' />
+                <DRange t0={10} t1={11} label='Доповідь' location='aula' />
+                <DRange t0={11} t1={12} label='Доповідь' location='aula' />
+                <DRange t0={12} t1={13} label='Обід' location='mensa' />
+                <DRange t0={13} t1={14} label='Доповідь' location='aula' />
+                <DRange t0={14} t1={15} label='Доповіді-блискавки' location='aula' />
+                <DRange t0={15} t1={15} label='Панельна дискусія' location='aula' />
+                <DRange t0={16} t1={17} label='Піцца' location='outside' />
             </Day>
 
-            <Day day='Saturday' date='June 9'>
-                <DRange t0={10} t1={11} label='Keynote' location='aula' />
-                <DRange t0={12} t1={14} label='Lunch' location='mensa' />
-                <DRange t0={14} t1={15} label='Keynote' location='aula' />
-                <DRange t0={18} t1={21} label='BBQ' location='outside' />
-            </Day>
-
-            <Day day='Sunday' date='June 10'>
-                <DRange t0={10} t1={11} label='Keynote' location='aula' />
-                <DRange t0={12} t1={14} label='Lunch' location='mensa' />
-                <DRange t0={15} t1={16} label='Project demos' location='aula' />
-                <DPoint t={17} label='End of event' />
-            </Day>
         </section>
     </div>
 );

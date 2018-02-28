@@ -58,36 +58,5 @@ const Project = ({title, contact, skillLevel, skillLevelTo, homepage, children})
 
 export default () => (
     <div className={styles.projects}>
-        <a id='projects' />
-        <h1>Projects</h1>
-
-        <div className={styles.container}>
-            <p>
-                In between the talks you can join one of these projects and help the maintainers
-                out with bug fixes or new features. We have plenty of space available in 10 separate
-                rooms where you can team up with your peers and work on your favourite project.
-            </p>
-            <p>
-                To submit your project, please open a <a href="https://github.com/wereHamster/zurihac">pull request</a>.
-            </p>
-        </div>
-
-        <div className={styles.container}>
-            <div className={styles.projectsLegend}>
-                <div className={styles.projectLegendItem}>
-                    <div className={styles.projectLegendItemLabel}>Beginner</div><SkillLevelBeginnerIcon />
-                </div>
-                <div className={styles.projectLegendItem}>
-                    <div className={styles.projectLegendItemLabel}>Advanced</div> <SkillLevelAdvancedIcon />
-                </div>
-                <div className={styles.projectLegendItem}>
-                    <div className={styles.projectLegendItemLabel}>Expert</div> <SkillLevelExpertIcon />
-                </div>
-            </div>
-        </div>
-
-        <div className={styles.projectsContainer}>
-            {projects.map((p, i) => <Project key={i} {...p} />)}
-        </div>
     </div>
 );
