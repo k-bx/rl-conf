@@ -46,6 +46,11 @@ Try to provide a short description of the person, in third-person tense.
 
 ## Deployment
 
+Use `yarn run build` to build, `firebase deploy` to deploy.
+
+
+**Old:**
+
 The master branch is automatically deployed after each push (using Google Cloud
 Container Builder, see the deploy.yaml file in the root of the repository).
 
