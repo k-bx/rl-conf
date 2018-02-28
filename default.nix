@@ -4,7 +4,7 @@ let
   stdenv = pkgs.stdenv;
 in {
   project = stdenv.mkDerivation {
-    name = "zurihac-website";
+    name = "rl-conf-website";
     buildInputs = [
       pkgs.nodejs-7_x
       pkgs.yarn
