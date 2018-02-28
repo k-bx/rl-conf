@@ -46,7 +46,7 @@ Try to provide a short description of the person, in third-person tense.
 
 ## Deployment
 
-Use `yarn run build` to build, `firebase deploy` to deploy.
+Use `yarn run build; cp build/index.html ./static/` to build, `firebase deploy` to deploy.
 
 
 **Old:**
