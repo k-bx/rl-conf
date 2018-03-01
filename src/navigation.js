@@ -11,13 +11,10 @@ export default () => (
                 { // TODO (SM): add some means to move to the top of the page.
                   //<a className={styles.navItem} href='#about'>About</a>
                 }
-                    <a className={styles.navItem} href='#speakers'>Speakers</a>
-                    <a className={styles.navItem} href='#schedule'>Schedule</a>
-                    <a className={styles.navItem} href='#projects'>Projects</a>
-                    <a className={styles.navItem} href='#beginners'>Beginners</a>
-                    <a className={styles.navItem} href='#venue'>Venue</a>
-                    <a className={styles.navItem} href='#registration'>Registration</a>
-                    <a className={styles.navItem} href='#contact'>Contact</a>
+                    <a className={styles.navItem} href='#speakers'>Спікери</a>
+                    <a className={styles.navItem} href='#schedule'>Розклад</a>
+                    <a className={styles.navItem} href='#registration'>Реєстрація</a>
+                    <a className={styles.navItem} href='#contact'>Контакти</a>
                 </div>
             </div>
         </nav>
