@@ -35,7 +35,7 @@ module.exports = function(locals) {
         <meta name="twitter:image"       content={shareImageUrl} />
         <meta name="twitter:description" ontent="I'm going to the RL Conf." />
 
-        <meta property="og:url"          content="http://rl-conf.kiev.ua"/>
+        <meta property="og:url"          content="https://rl-conf.kiev.ua"/>
         <meta property="og:type"         content="article" />
         <meta property="og:title"        content="RL Conf 2018" />
         <meta property="og:image"        content={shareImageUrl} />
