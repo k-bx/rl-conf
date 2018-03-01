@@ -1,6 +1,6 @@
 # Rusanivsky Liceum Conference 2018 website
 
-Live on https://www.rl-conf.kiev.ua
+Live on https://rl-conf.kiev.ua
 
 You need nodejs and yarn to run the website locally. If you have nix installed
 you can use `nix-shell` to switch into a shell with `yarn` available.
@@ -54,5 +54,5 @@ Use `yarn run build; cp build/index.html ./static/` to build, `firebase deploy` 
 The master branch is automatically deployed after each push (using Google Cloud
 Container Builder, see the deploy.yaml file in the root of the repository).
 
-Manual deployment is possible if you have access to the gs://www.rl-conf.kiev.ua Google
+Manual deployment is possible if you have access to the gs://rl-conf.kiev.ua Google
 Storage bucket. Use the `script/deploy` shell script.

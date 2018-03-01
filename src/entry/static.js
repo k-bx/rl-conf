@@ -27,7 +27,7 @@ module.exports = function(locals) {
         <link href="https://fonts.googleapis.com/css?family=Lora|Raleway:400,500" rel="stylesheet" />
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css' rel='stylesheet' />
 
-        <link href={'http://www.rl-conf.kiev.ua/' + cssFiles[0]} rel='stylesheet' />
+        <link href={'https://rl-conf.kiev.ua/' + cssFiles[0]} rel='stylesheet' />
 
         <meta name="twitter:card"        content="summary_large_image" />
         <meta name="twitter:creator"     content="@ko_bx" />
