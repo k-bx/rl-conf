@@ -36,9 +36,9 @@ export const About = () => (
 export const Footer = () => (
     <footer className={styles.footer}>
         <div className={styles.innerFooter}>
-            © 2017-2018 ZuriHac Organization Committee
+            © 2017-2018 Kostiantyn Rybnikov
             <div>
-                <a className={styles.footerContactLink} href='mailto:tomas.carnecky@gmail.com'>tomas.carnecky@gmail.com</a>
+                <a className={styles.footerContactLink} href='mailto:k-bx@k-bx.com'>k-bx@k-bx.com</a>
                 <div className={styles.footerLinkSeparator} />
                 <a className={styles.footerContactLink} href='https://github.com/k-bx/rl-conf'>website source</a>
             </div>
