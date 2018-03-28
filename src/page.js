@@ -7,21 +7,23 @@ import Navigation from './navigation';
 
 export default () => (
     <div>
-        <Header />
-        <Navigation />
-        <About />
-        <Sponsors />
-        <Speakers />
-        <Schedule />
-        <Food />
-        <Cpp />
-        <Projects />
-        <Beginners />
-        <Venue />
-        <Media />
-        <Registration />
-        <Contact />
-        <Conditions />
-        <Footer />
     </div>
 );
+    /* <Header />
+     * <Navigation />
+     * <About />
+     * <Sponsors />
+     * <Speakers />
+     * <Schedule />
+     * <Food />
+     * <Cpp />
+     * <Projects />
+     * <Beginners />
+     * <Venue />
+     * <Media />
+     * <Registration />
+     * <Contact />
+     * <Conditions />
+     * <Footer />
+       </div>
+       ); */
